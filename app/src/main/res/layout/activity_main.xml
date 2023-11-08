@@ -10,13 +10,13 @@
         android:id="@+id/tv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:text="  IMC"
         android:background="#227ABF"
+        android:text="  IMC"
+        android:textColor="@color/white"
         android:textSize="30sp"
-        android:textColor="@color/white"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
     <TextView
         android:id="@+id/tv1"
         android:layout_width="match_parent"
@@ -90,12 +90,12 @@
             android:id="@+id/femme"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Mètre"/>
+            android:text="Femelle"/>
         <RadioButton
             android:id="@+id/male"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Centimètre"/>
+            android:text="Mâle"/>
 
     </RadioGroup>
     <CheckBox
